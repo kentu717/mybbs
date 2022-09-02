@@ -45,7 +45,7 @@
     $errmsg = "投稿者名またはコメントが入力されていません";
 
   //エラーメッセージを表示
-  echo "<p><font color='red'>$errmsg</font></p>";
+    echo "<p><font color='red'>$errmsg</font></p>";
   }
 
   //入力ミスがなければ以下の処理を行う
