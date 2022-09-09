@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Web掲示板</h1>
-    <p>タキムラケンシロウの掲示板へようこそ！好きなことをなんでもつぶやいてね～</p>
+    <p>掲示板へようこそ！好きなことをなんでもつぶやいてね～</p>
     <form action = "" method = "POST">
       <h2>コメント投稿</h2>
         <input type = "text" placeholder = "投稿者名" name = "name">
@@ -28,9 +28,9 @@
     <?php
     //データベース情報
     $hostname = 'localhost';
-    $dbname = 'tb240226db';
-    $user = 'tb-240226';
-    $password = 'V48NSwmU2W';
+    $dbname = '****';
+    $user = '****';
+    $password = '****';
 
     //データソース
     $dbs = "mysql:host=$hostname;dbname=$dbname;charset=utf8";
